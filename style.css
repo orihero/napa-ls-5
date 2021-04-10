@@ -1,0 +1,57 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style: none;
+	display: flex;
+}
+.header {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 0 5px 25px 0 rgb(0 0 0 / 10%);
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon:hover {
+	color: blue;
+}
+
+.icon {
+	align-self: center;
+	font-size: 50px;
+}
+
+.nav-links {
+	flex: 1;
+	justify-content: space-around;
+	display: flex;
+}
+
+.contacts-container {
+	min-width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-phone {
+	font-weight: bold;
+}
+
+.call-center {
+	background: #fb9700;
+	display: flex;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+}
+
+.contacts-triangle {
+	display: flex;
+}
